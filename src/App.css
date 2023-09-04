@@ -1,0 +1,461 @@
+#box{
+  background-color: aquamarine;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  transform: translate(500px,120px);
+}
+#head{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#user{
+  height: 80px;
+}
+
+#text,#text1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.field{
+  font-size: 15px;
+  font-family:cursive;
+  height: 35px;
+  width: 330px;
+  border: none;
+}
+.field1{
+  font-size: 13px;
+  font-family: cursive;
+  height: 30px;
+  width: 280px;
+  border: none;
+}
+#sub{
+  color: aquamarine;
+  background-color:black;
+  border: none;
+  height: 40px;
+  width: 80px;
+  font-size: 19px;
+  font-family:'Trebuchet MS';
+  margin-left: 300px;
+}
+#reg{
+  color: aqua;
+  background-color: black;
+  border: none;
+  height: 40px;
+  width: 80px;
+  font-size: 19px;
+  font-family:'Trebuchet MS';
+  margin-left: 369px;
+}
+#reg:hover{
+  color: black;
+  background-color: aqua;
+  cursor: pointer;
+}
+#sub:hover{
+  color: black;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+#rlink{
+  margin-left: 150px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#rlink:hover{
+    color: crimson;
+}
+#box1{
+  background-color: aqua;
+  height: 680px;
+  width: 550px;
+  position: absolute;
+  transform: translate(500px,30px);
+}
+#head1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#regi{
+  height: 67px;
+}
+#preset{
+  width: 25px;
+  margin-left: 10px;
+}
+#uname{
+  margin-left: 92px;
+}
+#num{
+  margin-left: 13px;
+}
+#cpass{
+  margin-left: 30px;
+}
+#upass{
+  margin-left: 104px;
+}
+#mail{
+  margin-left: 64.5px;
+}
+#aad{
+  margin-left: 48px;
+}
+#age{
+  margin-left: 149px;
+}
+#head2{
+  height: 110px;
+  width: 1536px;
+  position: absolute;
+  transform: translate(0px,0px);
+}
+#topic{
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  transform: translate(10px,20px);
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+#log{
+  border: none;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;
+  position: absolute;
+  transform: translate(1400px,35px);
+}
+#log:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#prof{
+  height: 40px;
+  position: absolute;
+  transform: translate(1330px,35px);
+}
+#uid{
+  margin-left: 115px;
+}
+#logo{
+  height: 65px;
+  width: 60px;
+  transform: translate(230px,20px);
+  position: absolute;
+}
+#sbox{
+  height: 640px;
+  width: 1536px;
+  position: absolute;
+  transform: translate(0px,100px);
+}
+#caption{
+  position: absolute;
+  color: black;
+  background-color: white;
+  opacity: 0.85;
+  transform: translate(40px,180px);
+  width: 650px;
+  height: 500px;
+  text-align: center;
+}
+#disc{
+  height: 80px;
+  position: absolute;
+  transform: translate(190px, 0px);
+}
+#discount{
+  position: absolute;
+  transform: translate(470px,70px);
+  font-family: cursive;
+}
+#moto{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+#lines{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.field2{
+  position: absolute;
+  border: none;
+  border-radius: 11px;
+  font-size: 20px;
+  font-family: cursive;
+  width: 320px;
+  height: 40px;
+}
+
+.label{
+  position: absolute;
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#cs{
+  transform: translate(800px,200px);
+}
+#cf{
+  transform: translate(800px,240px);
+}
+#hs{
+  transform: translate(1150px,200px);
+}
+#hf{
+  transform: translate(1150px,240px);
+}
+#search{
+  position: absolute;
+  height: 40px;
+  width: 50px;
+  transform: translate(1426px,300px);
+  background-color: white;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+}
+#icon{
+  height: 23px;
+  width: 23px;
+}
+#hotbox{
+  background-image: url("https://images.trvl-media.com/lodging/89000000/88920000/88915400/88915308/ef8d9930.jpg?impolicy=resizecrop&rw=500&ra=fit");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#result{
+  position: absolute;
+  transform: translate(0px,750px);
+  margin-left: 10px;
+}
+#data{
+  height: 600;
+  width: 1524px;
+  margin-left: -10px;
+  color: transparent;
+}
+
+#img{
+  margin-left: 50px;
+  height: 500px;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#hn{
+  color: blue;
+  position: absolute;
+  transform: translate(900px,9px);
+  font-size: 45px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#det{
+  position: absolute;
+  transform: translate(900px,100px);
+  font-size: 17px;
+  font-family: cursive;
+}
+#price{
+  position: absolute;
+  transform: translate(470px,-110px);
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#data:hover{
+  color: black;
+}
+#rbut{
+  background-color: white;
+  border: none;
+  height: 130px;
+  width: 673px;
+  position: absolute;
+  transform: translate(-49px,19px);
+  font-size: 36px;
+  cursor: pointer;
+  color: black;
+}
+
+#rbut:hover{
+  background-color: black;
+  color: white;
+}
+#hir{
+  height: 70px;
+  transform: translate(20px,30px);
+  cursor: pointer;
+  position: absolute;
+}
+.label1{
+  font-size: 30px;
+  font-family: cursive;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.type{
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.heading{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gohome{
+  position: absolute;
+  transform: translate(1300px,20px);
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 35px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#gohome:hover
+{
+  color: black;
+  background-color: white;
+}
+
+#box3{
+  color: white;
+  background-color: black;
+  height: 755px;
+  margin-top: -23px;
+}
+#book{
+  border: none;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: white;
+  position: absolute;
+  transform: translate(1110px,35px);
+  cursor: pointer;
+}
+#book:hover{
+  background-color: black;
+  color: white;
+}
+#bookimg{
+  height: 752px;
+  width: 1536px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -9px;
+}
+#bookingpage{
+  position: absolute; 
+  transform: translate(450px,100px);
+  background-color: black;
+  width: 700px;
+  color: white;
+  opacity: 0.7;
+  height: 600px;
+
+}
+.booklabel{
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bookfield{
+  margin-top: 20px;
+  font-size: 25px;
+  margin-left: 300px;
+  height: 40px;
+  font-family: cursive;
+}
+#header{
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#bookbut{
+  border: none;
+  background-color:black;
+  color: aliceblue;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(540px,0px);
+}
+.fir{
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#buid{
+  margin-left: 300px;
+  margin-top: -55px;
+}
+#bhid{
+  margin-left: 600px;
+  margin-top: -55px;
+}
+#broom{
+  margin-top: 100px;
+}
+#bcin{
+  margin-top: -60px;
+  margin-left: 400px;
+}
+#bcout{
+  margin-top: -60px;
+  margin-left: 800px;
+}
+#btot{
+  margin-top: -60px;
+  margin-left: 1200px;
+}
+.butts{
+  border: none;
+  color: black;
+  background-color:transparent;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  height: 60px;
+  margin-left: 100px;
+  width: 200px;
+}
+.butts:hover{
+  background-color: black;
+  color: white;
+}
+#box5{
+
+  color: black;
+  width: 600px;
+  position: absolute;
+  transform: translate(450px,20px);
+}
+#back{
+  position: absolute;
+  opacity: 0.4;
+  transform: translate(0px,0px);
+  width: 1519px;
+  height: 1000px;
+}
+#finalbox{
+  position: absolute;
+}
